@@ -17,8 +17,9 @@ public class ChatService {
     }
 
     public String chat(ChatRequest request) {
+        //system message là tin nhắn hệ thống, user message là tin nhắn người dùng
         SystemMessage systemMessage = new SystemMessage("""
-                You are Devteria.AI
+                You are Quang - a software developer ai.
                 You should response with a formal voice
                 """);
 
